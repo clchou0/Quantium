@@ -10,4 +10,4 @@ df['sales'] = df['price'] * df['quantity']
 
 result = df[['sales', 'date', 'region']]
 
-result.to_csv('output.csv', index=False)
+result.to_csv('./output/task2.csv', index=False)
